@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body onload="start()">
+    <header>
+        <img src="../img/ceiling-logo2.png" alt="">
+        <input type="text" placeholder="搜索商家 美食">
+        <input type="button" value="搜索">
+    </header>
+    <a href="javascript:void(0);" onclick="changepage()" id="a1">
+        我的购物车（<span id="num">0</span>）
+    </a>
+    <article id="article">
+        <ul>
+            <li>
+                <img src="../img/1cde.jpg" alt="">
+            </li>
+            <li class="list">
+                <span>A米汉堡</span>
+                <span>16元/份</span>
+            </li>
+            <li>
+                <span>月销8148单</span>
+            </li>
+            <li>
+                <span>起送¥10</span>
+                <span>免配送费</span>
+                <span>45分钟</span>
+            </li>
+            <li>
+                <input type="button" value="加入购物车" onclick="add(this)">
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <img src="../img/3a31d.jpg" alt="">
+            </li>
+            <li class="list">
+                <span>杨记小厨</span>
+                <span>17.5元/份</span>
+            </li>
+            <li>
+                <span>月销4639单</span>
+            </li>
+            <li>
+                <span>起送¥10</span>
+                <span>免配送费</span>
+                <span>30分钟</span>
+            </li>
+            <li>
+                <input type="button" value="加入购物车" onclick="add(this)">
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <img src="../img/9ecd.jpg" alt="">
+            </li>
+            <li class="list">
+                <span>杨铭宇黄焖鸡米饭</span>
+                <span>18元/份</span>
+            </li>
+            <li>
+                <span>月销2571单</span>
+            </li>
+            <li>
+                <span>起送¥10</span>
+                <span>免配送费</span>
+                <span>25分钟</span>
+            </li>
+            <li>
+                <input type="button" value="加入购物车" onclick="add(this)">
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <img src="../img/d64c553.jpg" alt="">
+            </li>
+            <li class="list">
+                <span>烤肉拌饭</span>
+                <span>18元/份</span>
+            </li>
+            <li>
+                <span>月销2347单</span>
+            </li>
+            <li>
+                <span>起送¥0</span>
+                <span>免配送费</span>
+                <span>29分钟</span>
+            </li>
+            <li>
+                <input type="button" value="加入购物车" onclick="add(this)">
+            </li>
+        </ul>
+    </article>
+    <aside id="aside">
+        <table id="t">
+            <tr>
+                <th>全选<input type="checkbox" id="check" onclick="che(this)"></th>
+                <th>菜品</th>
+                <th>价格（元/份）</th>
+                <th>操作</th>
+            </tr>
+        </table>
+        <h2>购物车空了！</h2>
+        <ul>
+            <li> <input type="button" value="清除选中" id="deleteall" onclick="deleteall()"> </li>
+            <li>
+                <span>合计 ¥ </span>
+                <span id="sum">0</span>
+                <input type="button" value="结算" id="addall" onclick="addall()">
+            </li>
+        </ul>
+        <a href="javascript:void(0);" onclick="changepage2()">继续任性点餐</a>
+    </aside>
+</body>
+</html>
