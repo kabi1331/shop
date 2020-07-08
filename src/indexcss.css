@@ -1,0 +1,115 @@
+body {
+    margin: 0;padding: 0;
+    background-color: #F5F5F5;
+}
+ul li{
+    list-style: none;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #FFD700;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header input:first-of-type{
+    width: 300px;
+    height: 30px;
+    border: 3px solid #714300;
+    background: url(../img/2.jpg) 10px 10px no-repeat;
+    border-radius: 40px 0 0 40px;
+    text-indent: 60px;
+    background-position: 10px 
+}
+header input:nth-child(3){
+    color:white;
+    background-color: #714300;
+    width:100px;
+    height: 38px;
+    border:3px solid #714300;
+    position: relative;
+    left: -320px;
+    border-radius: 0 40px 40px 0;
+}
+a{
+    color:#4C00FF;
+    text-align: center;
+    display:block;
+    padding: 30px;
+    text-decoration: none;
+}
+article{
+    width: 1000px;
+    height: 310px;
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin:auto;
+}
+article ul{
+    padding:0;
+}
+article li{
+    display: flex;
+    justify-content: space-between;
+    margin:5px;
+}
+article li:nth-child(3) span{
+    color:#FFBB18;
+    font-size: 13px;
+    position: relative;
+    left: 155px;
+}
+article li:nth-child(4){
+    font-size: 12px;
+    color:#B9B9B9;
+}
+article li:nth-child(5) input{
+    position: relative;
+    left: 150px;
+}
+article img{
+    width:220px;
+    height: 150px;
+    margin-bottom: 30px;
+}
+aside{
+    width: 990px;
+    height: 310px;
+    background-color: white;
+    margin:auto;
+    padding:5px;
+}
+aside table{
+    width:990px;
+    border-spacing: 0;
+}
+aside tr{
+    background-color: #AAE1FF;
+}
+aside ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    border-top: 1px solid black;
+}
+aside li:nth-child(2) input{
+    background-color: #FFD700;
+}
+aside span{
+    color:#FF0000;
+}
+aside a{
+    text-align: left;
+    padding-left: 0;
+}
+a>span{
+    color:red;
+}
+h2{
+    color:red;
+    text-align: center;
+}
